@@ -40,7 +40,7 @@ Patrón: Capas (Controllers, Models, Views)
 ### ¿Por qué?
 
 Decidí construir Good Goals utilizando ASP.NET Core como tecnología principal para el backend, ya que permite desarrollar aplicaciones web modernas y escalables con C#. Para el frontend elegí el enfoque MVC, aprovechando las vistas y la estructura que ofrece este patrón dentro del propio framework. La base de datos seleccionada es SQL Server, porque se integra de forma natural con .NET y facilita el manejo de información estructurada. El estilo arquitectónico elegido es MVC y el proyecto está organizado mediante un patrón por capas que separa controladores, modelos y vistas, lo que permite mantener el código ordenado, claro y fácil de extender.
-(ademas es lo que he aprendido en esta unidad y me gustaria reforzarlo)
+(ádemas, es lo que he aprendido en esta unidad y me gustaria reforzarlo)
 ### Alternativas consideradas
 
 *(Mínimo 3 filas)*
