@@ -1,9 +1,9 @@
-# ADR-01: [Título corto de la decisión]
+# ADR-02: GoodGoals
 
 | Campo  | Valor |
 |--------|-------|
 | Autor  | Heidi Esther Peña Betanzos|
-| Fecha  | DD/MM/AAAA |
+| Fecha  | 05/06/2026 |
 | Estado | `Aceptado` |
 
 ---
@@ -76,6 +76,20 @@ Si el proyecto crece, será necesario migrar a vistas más complejas (C4, micros
 
 ## Diagramas
 
-Un boceto de cómo se estructura tu sistema (draw.io, Mermaid o a mano escaneado)
+### Vista lógica
 
-![Diagrama del sistema]( ./ruta/diagrama-nivel-1.png )
+<img width="8192" height="3053" alt="Goal Management-2026-06-05-064608" src="https://github.com/user-attachments/assets/88480d7f-d327-46c1-8b54-ac63066e4478" />
+
+### Vista física
+<img width="3628" height="1960" alt="Goal Management-2026-06-05-064514" src="https://github.com/user-attachments/assets/95c563bc-1fb5-452d-94bb-67e095877b84" />
+
+### Vista de despliegue
+<img width="3998" height="2075" alt="Goal Management-2026-06-05-064412" src="https://github.com/user-attachments/assets/0f2b4c94-8a12-4f58-ad17-8e0ec0dcebde" />
+
+### Vista de procesos
+<img width="678" height="8192" alt="Goal Management-2026-06-05-064336" src="https://github.com/user-attachments/assets/5674e9d1-af3b-4a87-9544-014ff975b2fb" />
+
+## 🤖 Uso de IA
+
+
+
