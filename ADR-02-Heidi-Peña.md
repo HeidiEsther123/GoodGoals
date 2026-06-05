@@ -76,6 +76,6 @@ Si el proyecto crece, será necesario migrar a vistas más complejas (C4, micros
 <img width="678" height="8192" alt="Goal Management-2026-06-05-064336" src="https://github.com/user-attachments/assets/5674e9d1-af3b-4a87-9544-014ff975b2fb" />
 
 ## 🤖 Uso de IA
-
+Yo Heidi Esther Peña Betanzos use IA para aprender a como crear un diagrama en Mermaid ya que se me dificulto. Use Gemini y el pront fue el siguiente "Necesito ayuda en mis diagramas se me esta haciendo engorroso usar draw.io y quiero probar Mermaid ¿como lo puedo usar?"
 
 
