@@ -52,8 +52,6 @@ Vista de despliegue: explica cómo se distribuye la aplicación en infraestructu
 
 Vista de procesos: representa los flujos principales de ejecución (crear meta, actualizar tareas, autenticación, etc.).
 
-*(Mínimo 3 filas)*
-
 | Alternativa | Por qué la descarté |
 |-------------|---------------------|
 | Documentar solo la vista lógica| No cumple con los requisitos de la actividad y deja incompleta la arquitectura.           |
