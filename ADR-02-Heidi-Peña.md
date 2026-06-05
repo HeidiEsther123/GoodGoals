@@ -10,27 +10,47 @@
 
 ## Contexto
 
-¿Qué estás construyendo, qué problema resuelve y para quién es? Describe también las condiciones o restricciones que influyeron en esta decisión — por ejemplo, el tiempo disponible, el equipo, las tecnologías que ya conoces o las que viste en clase.
+Estoy construyendo Good Goals, una aplicación dirigida a personas que desean mejorar su productividad, organizar su día a día y desarrollar disciplina mediante herramientas integradas como calendario, agenda, seguimiento de objetivos, notas y recordatorios. También está pensada para personas distraídas o con dificultades para mantener el enfoque, ofreciéndoles un espacio centralizado que evita la necesidad de usar varias aplicaciones al mismo tiempo y facilita la constancia.
+
+El problema principal que resuelve es la dispersión: actualmente los usuarios deben recurrir a diferentes apps para tareas, notas, hábitos y calendario, lo que fragmenta su organización. Good Goals reúne todo en un solo sistema, permitiendo una visión clara y continua de sus actividades.
+
+Las restricciones que influyen en esta decisión incluyen:
+
+Tiempo limitado del cuatrimestre (bastante corto)
+
+El proyecto es de carácter individual lo que dificulta la rapidez.
+
+Tecnologías conocidas en clase (MVC, API, bases de datos, etc.)
+
+Necesidad de entregar un prototipo funcional y mantenible
+
+Como parte de la arquitectura del sistema, es necesario definir formalmente las vistas arquitectónicas que describen cómo se estructura, despliega y ejecutara Good Goals.
 
 ---
 
 ## Decisión
+Definir y documentar las siguientes cuatro vistas arquitectónicas aplicadas al sistema Good Goals:
 
+Vista lógica: muestra los módulos principales del sistema (controladores, modelos, vistas, servicios, entidades).
+
+Vista física: describe los componentes físicos donde vive el sistema (servidor, base de datos, archivos estáticos).
+
+Vista de despliegue: explica cómo se distribuye la aplicación en infraestructura (ambiente local y producción).
+
+Vista de procesos: representa los flujos principales de ejecución (crear meta, actualizar tareas, autenticación, etc.).
 
 
 ### ¿Por qué?
 
-Decidí documentar estas vistas porque permiten entender el sistema desde diferentes perspectivas y facilitan la comunicación de la arquitectura. Cada vista responde a una pregunta distinta:
+Se necesita definir y documentar las siguientes cuatro vistas arquitectónicas que seran aplicadas en el sistema Good Goals:
 
-Lógica: ¿qué componentes existen y cómo se relacionan?
+Vista lógica: muestra los módulos principales del sistema (controladores, modelos, vistas, servicios, entidades).
 
-Física: ¿en qué artefactos o máquinas vive el sistema?
+Vista física: describe los componentes físicos donde vive el sistema (servidor, base de datos, archivos estáticos).
 
-Despliegue: ¿cómo se distribuye la aplicación en los entornos?
+Vista de despliegue: explica cómo se distribuye la aplicación en infraestructura (ambiente local y producción).
 
-Procesos: ¿cómo fluye la información dentro del sistema?
-
-### Alternativas consideradas
+Vista de procesos: representa los flujos principales de ejecución (crear meta, actualizar tareas, autenticación, etc.).
 
 *(Mínimo 3 filas)*
 
