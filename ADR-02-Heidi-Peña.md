@@ -16,21 +16,7 @@
 
 ## Decisión
 
-Estoy construyendo Good Goals, una aplicación dirigida a personas que desean mejorar su productividad, organizar su día a día y desarrollar disciplina mediante herramientas integradas como calendario, agenda, seguimiento de objetivos, notas y recordatorios. También está pensada para personas distraídas o con dificultades para mantener el enfoque, ofreciéndoles un espacio centralizado que evita la necesidad de usar varias aplicaciones al mismo tiempo y facilita la constancia.
 
-El problema principal que resuelve es la dispersión: actualmente los usuarios deben recurrir a diferentes apps para tareas, notas, hábitos y calendario, lo que fragmenta su organización. Good Goals reúne todo en un solo sistema, permitiendo una visión clara y continua de sus actividades.
-
-Las restricciones que influyen en esta decisión incluyen:
-
-Tiempo limitado del cuatrimestre (bastante corto)
-
-El proyecto es de carácter individual por ende debo de prestarle mas atencion
-
-Tecnologías conocidas en clase (MVC, API, bases de datos relacionales, etc.)
-
-Necesidad de entregar un prototipo funcional y mantenible
-
-Como parte de la arquitectura del sistema, es necesario definir formalmente las vistas arquitectónicas que describen cómo se estructura, despliega y ejecuta Good Goals.
 
 ### ¿Por qué?
 
