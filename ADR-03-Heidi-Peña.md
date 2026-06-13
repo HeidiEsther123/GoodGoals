@@ -50,20 +50,29 @@ Este estilo resuelve el problema central y las restricciones de desarrollo debid
 
 ## Consecuencias
 
+## Consecuencias
+
 **✅ Lo que gano:**
 
-Menciona al menos:
-- Una consecuencia **técnica** — qué se vuelve más fácil de construir, mantener o escalar en tu sistema
-- Una consecuencia sobre el **proceso o el equipo** — cómo afecta la forma en que vas a trabajar
+* **Consecuencia técnica:**
+  Alta mantenibilidad. Modificar el diseño visual de la capa de presentación (como la vista de notas o del calendario) no afectará las reglas lógicas ni la persistencia de datos en la base de datos.
+* **Consecuencia sobre el proceso o el equipo:**
+  Simplicidad y velocidad en el desarrollo. Al trabajar de forma individual, desarrollar sobre una estructura de capas clara facilita el control de versiones en Git, agiliza las pruebas locales y asegura entregar el proyecto a tiempo.
 
 **⚠️ Lo que sacrifico o asumo:**
 
-Menciona al menos:
-- Una **limitación técnica** — qué no podrás hacer fácilmente con esta decisión
-- Una **deuda o riesgo** — qué podrías tener que resolver más adelante si el proyecto crece
+* **Limitación técnica:**
+ Escalabilidad acoplada. Si el módulo de calendario o el de recordatorios recibe una alta carga de peticiones, no se puede escalar esa capa o función de forma aislada; se debe escalar la aplicación completa.
+* **Deuda o riesgo:**
+   Si la aplicación crece demasiado con nuevas funciones a futuro, las capas pueden volverse densas o propensas a un acoplamiento difuso si no se mantiene una estricta disciplina en la separación del código.
+
+---
 
 ## Diagrama
 
-Un boceto de cómo se estructura tu sistema (draw.io, Mermaid o a mano escaneado)
+A continuación, mi diagrama de cómo se distribuyen las capas y el flujo de control bajo el estilo elegido para **Good Goals**:
 
-![Diagrama del sistema]( ./ruta/diagrama-nivel-1.png )
+<img width="5171" height="4609" alt="User-Centric Data-2026-06-13-010037" src="https://github.com/user-attachments/assets/ef22a325-8969-46d0-931c-3ddbb82d73cb" />
+
+
+
