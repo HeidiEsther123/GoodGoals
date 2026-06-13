@@ -7,7 +7,7 @@
 | **Estado** | Aceptado |
 ---
 
-## Contexto
+## Contexto 🧸
 
 Estoy construyendo **Good Goals**, mi aplicación dirigida a personas que desean mejorar su productividad, organizar su día a día y desarrollar disciplina mediante herramientas integradas como calendario, agenda, seguimiento de objetivos, notas y recordatorios. También está pensada para personas distraídas o con dificultades para mantener el enfoque, ofreciéndoles un espacio centralizado que evita la necesidad de usar varias aplicaciones al mismo tiempo y facilita la constancia.
 
@@ -21,9 +21,7 @@ Las restricciones que influyeron en esta decisión incluyen:
 
 ---
 
-## Decisión
-
-## Decisión
+## Decisión🍇
 
 Se ha decidido implementar el estilo de **Arquitectura en Capas**, organizado formalmente bajo el patrón **Modelo-Vista-Controlador (MVC)** para el desarrollo del sistema Good Goals.
 
@@ -36,9 +34,7 @@ Este estilo resuelve el problema central y las restricciones de desarrollo debid
   **Optimización del Desarrollo Individual:** 
   Reduce al mínimo el tiempo invertido en configuraciones complejas de infraestructura, permitiendo concentrar el esfuerzo de una sola persona en programar las reglas de negocio y las pantallas usando el estándar técnico aprendido en clase.
 
-### Alternativas consideradas
-
-*(Mínimo 3 filas)*
+### Alternativas consideradas 🫐
 
 | Alternativa | Por qué la descarté |
 |-------------|---------------------|
@@ -47,10 +43,7 @@ Este estilo resuelve el problema central y las restricciones de desarrollo debid
 | **Arquitectura Desacoplada (SPA + API independiente)** | Requiere desarrollar y desplegar dos proyectos por separado (un frontend web y un backend de manera independiente). Esto duplicaría el esfuerzo de configuración de servidores y autenticación bajo un calendario escolar corto. 
 
 ---
-
-## Consecuencias
-
-## Consecuencias
+## Consecuencias 👀
 
 **✅ Lo que gano:**
 
@@ -68,11 +61,15 @@ Este estilo resuelve el problema central y las restricciones de desarrollo debid
 
 ---
 
-## Diagrama
+## Diagrama 🪄
 
 A continuación, mi diagrama de cómo se distribuyen las capas y el flujo de control bajo el estilo elegido para **Good Goals**:
 
 <img width="5171" height="4609" alt="User-Centric Data-2026-06-13-010037" src="https://github.com/user-attachments/assets/ef22a325-8969-46d0-931c-3ddbb82d73cb" />
 
+---
 
+## Uso de IA 🤖 
+
+Yo, Heidi Esther Peña Betanzos, utilicé herramientas de IA únicamente para la limpieza de ortografía y redacción con el fin de que mi ADR se presentara en buenas condiciones.
 
