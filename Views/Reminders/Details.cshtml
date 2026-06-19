@@ -1,0 +1,8 @@
+@model Reminder
+@{ ViewData["Title"] = "Detalle de Recordatorio"; }
+
+<h2>@Model.Title</h2>
+<p><strong>Fecha/Hora:</strong> @Model.RemindAt.ToString("g")</p>
+<p><strong>Estado:</strong> @(Model.IsSent ? "Enviado" : "Pendiente")</p>
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Editar</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Volver</a>

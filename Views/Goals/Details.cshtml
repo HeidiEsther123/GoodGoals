@@ -1,0 +1,19 @@
+@model Goal
+@{ ViewData["Title"] = "Detalle de Meta"; }
+
+<h2>@Model.Title</h2>
+<p>@Model.Description</p>
+<p><strong>Fecha objetivo:</strong> @(Model.TargetDate?.ToShortDateString() ?? "Sin definir")</p>
+<p><strong>Estado:</strong> @(Model.IsCompleted ? "Completada ✅" : "En progreso")</p>
+<p><strong>Creada:</strong> @Model.CreatedAt.ToString("g")</p>
+
+<h4 class="mt-4">Tareas asociadas</h4>
+<ul>
+@foreach (var t in Model.Tasks)
+{
+    <li>@t.Title @(t.IsCompleted ? "✅" : "")</li>
+}
+</ul>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Editar</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Volver</a>

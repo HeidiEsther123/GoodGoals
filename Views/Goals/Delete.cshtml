@@ -1,0 +1,13 @@
+@model Goal
+@{ ViewData["Title"] = "Eliminar Meta"; }
+
+<h2>¿Eliminar esta meta?</h2>
+<div class="alert alert-warning">
+    <h5>@Model.Title</h5>
+    <p>@Model.Description</p>
+</div>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Sí, eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

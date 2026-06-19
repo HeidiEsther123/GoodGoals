@@ -1,0 +1,9 @@
+@model TaskItem
+@{ ViewData["Title"] = "Detalle de Tarea"; }
+
+<h2>@Model.Title</h2>
+<p><strong>Vence:</strong> @(Model.DueDate?.ToShortDateString() ?? "Sin definir")</p>
+<p><strong>Meta asociada:</strong> @(Model.Goal?.Title ?? "Ninguna")</p>
+<p><strong>Estado:</strong> @(Model.IsCompleted ? "Completada ✅" : "Pendiente")</p>
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Editar</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Volver</a>

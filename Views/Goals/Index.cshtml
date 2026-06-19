@@ -1,0 +1,37 @@
+@model IEnumerable<Goal>
+@{ ViewData["Title"] = "Mis Metas"; }
+
+<h2>🍇 Mis Metas</h2>
+<a class="btn btn-success mb-3" asp-action="Create">+ Nueva Meta</a>
+
+<div class="row">
+@foreach (var goal in Model)
+{
+    <div class="col-md-4">
+        <div class="card @(goal.IsCompleted ? "border-success" : "")">
+            <div class="card-body">
+                <h5 class="card-title">@goal.Title @(goal.IsCompleted ? "✅" : "")</h5>
+                <p class="card-text">@goal.Description</p>
+                @if (goal.TargetDate != null)
+                {
+                    <p class="text-muted small">Meta para: @goal.TargetDate.Value.ToShortDateString()</p>
+                }
+                <div class="d-flex gap-2 flex-wrap">
+                    <a class="btn btn-sm btn-outline-primary" asp-action="Details" asp-route-id="@goal.Id">Ver</a>
+                    <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@goal.Id">Editar</a>
+                    <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@goal.Id">Eliminar</a>
+                    <form asp-action="ToggleCompleted" asp-route-id="@goal.Id" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-sm btn-outline-success">
+                            @(goal.IsCompleted ? "Reabrir" : "Completar")
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+</div>
+@if (!Model.Any())
+{
+    <p class="text-muted">Aún no tienes metas. ¡Crea la primera!</p>
+}

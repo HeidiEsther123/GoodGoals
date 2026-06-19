@@ -1,0 +1,22 @@
+@model IEnumerable<Note>
+@{ ViewData["Title"] = "Mis Notas"; }
+
+<h2>🗒️ Mis Notas</h2>
+<a class="btn btn-success mb-3" asp-action="Create">+ Nueva Nota</a>
+
+<div class="row">
+@foreach (var note in Model)
+{
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@note.Title</h5>
+                <p class="card-text">@note.Content</p>
+                <p class="text-muted small">@note.CreatedAt.ToString("g")</p>
+                <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@note.Id">Editar</a>
+                <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@note.Id">Eliminar</a>
+            </div>
+        </div>
+    </div>
+}
+</div>

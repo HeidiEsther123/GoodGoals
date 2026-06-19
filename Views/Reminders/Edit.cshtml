@@ -1,0 +1,21 @@
+@model Reminder
+@{ ViewData["Title"] = "Editar Recordatorio"; }
+
+<h2>Editar Recordatorio</h2>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="RemindAt" class="form-label"></label>
+        <input asp-for="RemindAt" type="datetime-local" class="form-control" />
+    </div>
+    <div class="form-check mb-3">
+        <input asp-for="IsSent" class="form-check-input" />
+        <label asp-for="IsSent" class="form-check-label"></label>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

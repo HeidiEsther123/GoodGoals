@@ -1,0 +1,23 @@
+@model IEnumerable<Reminder>
+@{ ViewData["Title"] = "Mis Recordatorios"; }
+
+<h2>⏰ Mis Recordatorios</h2>
+<a class="btn btn-success mb-3" asp-action="Create">+ Nuevo Recordatorio</a>
+
+<table class="table table-striped">
+    <thead><tr><th>Título</th><th>Fecha/Hora</th><th>Estado</th><th></th></tr></thead>
+    <tbody>
+    @foreach (var r in Model)
+    {
+        <tr>
+            <td>@r.Title</td>
+            <td>@r.RemindAt.ToString("g")</td>
+            <td>@(r.IsSent ? "Enviado" : "Pendiente")</td>
+            <td>
+                <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@r.Id">Editar</a>
+                <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@r.Id">Eliminar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
