@@ -46,3 +46,23 @@ La autenticación se maneja con **ASP.NET Core Identity** (cookies), de modo que
 | Autenticación basada en JWT (tokens) | Es el estándar para APIs públicas consumidas por apps externas, pero agrega complejidad de configuración (emisión, expiración y renovación de tokens) que no aporta valor inmediato cuando el primer consumidor de la API es la propia sesión web. Queda como mejora futura si se conecta una app móvil real. |
 | No implementar API y mantener solo MVC | Incumple el requisito de la actividad de mostrar la incorporación de una API, y limita al sistema a un solo tipo de cliente (el navegador), reduciendo su capacidad de extensión futura. |
 
+### Consecuencias 👀
+
+**✅ Lo que gano:**
+
+- **Consecuencia técnica:** Good Goals ahora tiene dos puntos de entrada (Vistas MVC y API REST) que comparten exactamente la misma Capa de Servicios y de Datos, validando en la práctica que la Arquitectura en Capas definida en el ADR-03 separa correctamente sus responsabilidades.
+- **Consecuencia sobre el proceso:** Cualquier mejora futura en la lógica de negocio (por ejemplo, nuevas validaciones en Tareas) se escribe una sola vez en el Servicio y automáticamente queda disponible tanto para la web como para la API, sin duplicar trabajo.
+
+**⚠️ Lo que sacrifico o asumo:**
+
+- **Limitación técnica:** Al usar autenticación por cookie en lugar de JWT, la API en su forma actual está pensada para ser consumida desde el mismo dominio/sesión del navegador; no está lista todavía para ser consumida por una app móvil o un cliente externo sin antes incorporar un esquema de tokens.
+- **Deuda o riesgo:** Si en el futuro se necesita exponer la API públicamente a terceros, será necesario revisar el modelo de autenticación (migrar a JWT o API Keys) y añadir control de versiones de la API (`/api/v1/...`), algo que por restricciones de tiempo no se abordó en esta entrega.
+
+## 📸 Capturas 📸
+
+<img width="1910" height="918" alt="Captura de pantalla 2026-06-19 201218" src="https://github.com/user-attachments/assets/9ed14214-5e5f-4b15-b447-2bf9c9095b43" />
+<img width="1212" height="898" alt="Captura de pantalla 2026-06-19 215319" src="https://github.com/user-attachments/assets/b7126a69-d0c4-4da1-8cea-5897deaf2fc2" />
+
+## 🤖 Uso AI 🤖
+
+Yo Heidi Esther Peña Betanzos use inteligencia artificial para resolver problemas criticos que no pude arreglar por cuenta propia.
