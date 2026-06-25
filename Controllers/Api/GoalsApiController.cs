@@ -8,7 +8,6 @@ namespace GoodGoals.Controllers.Api
 {
     // Capa de Presentación (API): expone los datos de Metas como JSON.
     // Reutiliza la MISMA capa de Servicios que usa el controlador MVC (GoalsController),
-    // tal como se definió en el ADR-03 (Arquitectura en Capas).
     [Route("api/goals")]
     [ApiController]
     [Authorize]

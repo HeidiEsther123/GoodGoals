@@ -15,13 +15,15 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
 
 // ---- Identity (Autenticación) ----
-builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
-    {
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
         options.SignIn.RequireConfirmedAccount = false;
         options.Password.RequireNonAlphanumeric = false;
         options.Password.RequiredLength = 6;
     })
-    .AddEntityFrameworkStores<AppDbContext>();
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders()
+    .AddDefaultUI();
 
 // ---- Repositorios (Capa de Acceso a Datos) ----
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));

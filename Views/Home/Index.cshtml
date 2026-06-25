@@ -3,19 +3,16 @@
 }
 
 <div class="text-center py-5">
-    <h1 class="display-5">Bienvenido a Good Goals 🎯</h1>
-    <p class="lead">Organiza tus metas, tareas, notas y recordatorios en un solo lugar.</p>
+    <h1 class="display-5">Bienvenido Good Goals </h1>
+    <p class="lead">Bienvenido!! Organiza tus metas, tareas, notas y recordatorios en un solo lugar.</p>
     @if (User.Identity != null && User.Identity.IsAuthenticated)
     {
         <a class="btn btn-primary btn-lg" asp-controller="Goals" asp-action="Index">Ir a mis Metas</a>
     }
     else
     {
-        <a class="btn btn-primary btn-lg" asp-area="Identity" asp-page="/Account/Register">Crear cuenta gratis</a>
+        <a class="btn btn-primary btn-lg" asp-area="Identity" asp-page="/Account/Register">Crear cuenta </a>
     }
     <hr class="my-4" />
-    <p class="text-muted">
-        ¿Eres desarrollador? Esta aplicación también expone una <strong>API REST</strong>
-        documentada con Swagger en <a href="/swagger">/swagger</a>.
-    </p>
+    
 </div>

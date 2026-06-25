@@ -1,0 +1,523 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\surik\\AppData\\Local\\Temp\\9642609f-2499-4e12-afbd-b7865ea10d8e_GoodGoals.zip.d8e\\GoodGoals\\Services\\GoalService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\controllers\\reminderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:controllers\\reminderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\controllers\\goalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:controllers\\goalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\views\\goals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:views\\goals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\views\\goals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:views\\goals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\views\\goals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:views\\goals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\views\\goals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:views\\goals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\views\\goals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:views\\goals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\services\\reminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:services\\reminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\services\\ireminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:services\\ireminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\services\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:services\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\services\\igoalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:services\\igoalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\models\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:models\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals\\goodgoals\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoalService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\GoalService.cs",
+              "RelativeDocumentMoniker": "Services\\GoalService.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\GoalService.cs",
+              "RelativeToolTip": "Services\\GoalService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:34.406Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T07:41:46.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GoalService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\AppData\\Local\\Temp\\9642609f-2499-4e12-afbd-b7865ea10d8e_GoodGoals.zip.d8e\\GoodGoals\\Services\\GoalService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\9642609f-2499-4e12-afbd-b7865ea10d8e_GoodGoals.zip.d8e\\GoodGoals\\Services\\GoalService.cs",
+              "ToolTip": "C:\\Users\\surik\\AppData\\Local\\Temp\\9642609f-2499-4e12-afbd-b7865ea10d8e_GoodGoals.zip.d8e\\GoodGoals\\Services\\GoalService.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\9642609f-2499-4e12-afbd-b7865ea10d8e_GoodGoals.zip.d8e\\GoodGoals\\Services\\GoalService.cs [Solo lectura]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T07:43:27.875Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RemindersController.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\RemindersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RemindersController.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\RemindersController.cs",
+              "RelativeToolTip": "Controllers\\RemindersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:40:48.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:40:49.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "Controllers\\NotesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:40:46.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:40:43.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GoalsController.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\GoalsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GoalsController.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Controllers\\GoalsController.cs",
+              "RelativeToolTip": "Controllers\\GoalsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:40:34.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIAwwDgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T07:03:54.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:41:59.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Goals\\Index.cshtml",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Index.cshtml",
+              "RelativeToolTip": "Views\\Goals\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:41:56.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Goals\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Goals\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:41:55.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Goals\\Details.cshtml",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Details.cshtml",
+              "RelativeToolTip": "Views\\Goals\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:41:54.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Goals\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Goals\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:41:53.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Goals\\Create.cshtml",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Views\\Goals\\Create.cshtml",
+              "RelativeToolTip": "Views\\Goals\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:41:52.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\TaskService.cs",
+              "RelativeToolTip": "Services\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:43.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReminderService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\ReminderService.cs",
+              "RelativeDocumentMoniker": "Services\\ReminderService.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\ReminderService.cs",
+              "RelativeToolTip": "Services\\ReminderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:42.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NoteService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\NoteService.cs",
+              "RelativeDocumentMoniker": "Services\\NoteService.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\NoteService.cs",
+              "RelativeToolTip": "Services\\NoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:41.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Services\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\ITaskService.cs",
+              "RelativeToolTip": "Services\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:40.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IReminderService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\IReminderService.cs",
+              "RelativeDocumentMoniker": "Services\\IReminderService.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\IReminderService.cs",
+              "RelativeToolTip": "Services\\IReminderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:38.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "INoteService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\INoteService.cs",
+              "RelativeDocumentMoniker": "Services\\INoteService.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\INoteService.cs",
+              "RelativeToolTip": "Services\\INoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:37.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IGoalService.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\IGoalService.cs",
+              "RelativeDocumentMoniker": "Services\\IGoalService.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Services\\IGoalService.cs",
+              "RelativeToolTip": "Services\\IGoalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:35.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:28.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:26.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:14.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Reminder.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\Reminder.cs",
+              "RelativeDocumentMoniker": "Models\\Reminder.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\Reminder.cs",
+              "RelativeToolTip": "Models\\Reminder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:13.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "Models\\Note.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\Note.cs",
+              "RelativeToolTip": "Models\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:09.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\Goal.cs",
+              "RelativeDocumentMoniker": "Models\\Goal.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\Goal.cs",
+              "RelativeToolTip": "Models\\Goal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:41:02.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:40:59.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals\\GoodGoals\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-19T06:40:27.944Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
