@@ -1,6 +1,39 @@
-﻿namespace GoodGoals
-{
-    public class _
-    {
-    }
-}
+﻿# ---- Build results ----
+bin/
+obj/
+out/
+
+# ---- Visual Studio ----
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.slnx
+
+# ---- NuGet ----
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# ---- Logs ----
+*.log
+
+# ---- Archivos de configuración sensibles ----
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# ---- Base de datos local ----
+*.mdf
+*.ldf
+*.db
+
+# ---- Sistema operativo ----
+.DS_Store
+Thumbs.db
+
+# ---- Publicación ----
+publish/
+*.pubxml
+*.pubxml.user

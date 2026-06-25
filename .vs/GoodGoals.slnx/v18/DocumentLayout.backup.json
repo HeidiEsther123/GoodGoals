@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals-repo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals-repo\\goodgoals\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:goodgoals\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals-repo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals-repo\\goodgoals\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:goodgoals\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals-repo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals-repo\\goodgoals\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|solutionrelative:goodgoals\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C58215B6-911A-B21A-6E29-0021F84361B8}|GoodGoals.csproj|c:\\users\\surik\\onedrive\\escritorio\\goodgoals-repo\\goodgoals.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,26 +122,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ExternalLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals-repo\\GoodGoals\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
               "RelativeDocumentMoniker": "GoodGoals\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
-              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals-repo\\GoodGoals\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml*",
-              "RelativeToolTip": "GoodGoals\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals-repo\\GoodGoals\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "RelativeToolTip": "GoodGoals\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T23:56:54.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T23:56:54.165Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals-repo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals-repo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAswE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T17:27:44.406Z",
               "EditorCaption": ""
@@ -156,8 +155,7 @@
               "RelativeToolTip": "GoodGoals.csproj",
               "ViewState": "AgIAAAIAAAAAAAAAAAAcwBgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-24T22:33:37.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T22:33:37.523Z"
             },
             {
               "$type": "Document",
@@ -169,8 +167,7 @@
               "RelativeToolTip": "GoodGoals\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T23:35:14.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T23:35:14.42Z"
             },
             {
               "$type": "Document",
@@ -180,10 +177,9 @@
               "RelativeDocumentMoniker": "GoodGoals\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\surik\\OneDrive\\Escritorio\\GoodGoals-repo\\GoodGoals\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "GoodGoals\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T23:29:06.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T23:29:06.024Z"
             },
             {
               "$type": "Document",
@@ -195,8 +191,7 @@
               "RelativeToolTip": "GoodGoals\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T23:29:27.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T23:29:27.27Z"
             },
             {
               "$type": "Document",
@@ -208,8 +203,7 @@
               "RelativeToolTip": "GlobalUsings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T22:50:18.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T22:50:18.918Z"
             },
             {
               "$type": "Document",
