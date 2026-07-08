@@ -124,7 +124,13 @@ Cuando una Meta se completa, el `GoalEventManager` notifica al `TaskCompletionOb
 | `Mian` | ADR-01 + prototipo inicial MVC  + ADR-02 + diagramas de las 4 vistas + ADR-03 + Repositories/ + Services/ |
 | `Api` | + ADR-04 + Controllers/Api/ + Swagger |
 | `gof` | + ADR-05 + Patterns/ (Factory, Decorator, Observer) |
+| `UML` | + digrama C4 nivel 1, digrama C4 nivel 2, digrama C4 nivel 3 |
+---
+## Diagrama
 
+[C4-GoodGoals.md](C4-GoodGoals.md)
+
+---
 ## Uso de AI
 
 YO Heidi Peña Betanzos use AI para cosas se me difucultaron hacer , consultar dudas y mejorar mi css.
