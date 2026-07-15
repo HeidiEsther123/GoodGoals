@@ -1,4 +1,4 @@
-## ADR-05: Incorporación de Patrones de Diseño GOF a Good Goals
+## ADR-06: Incorporación de Patrones de Diseño GOF a Good Goals
 
 | Campo | Valor |
 |---|---|
@@ -106,3 +106,30 @@ Migrar la cadena de conexión a variables de entorno usando el sistema de secret
 **Técnica de refactorización:** *Externalización de configuración* — mover parámetros sensibles fuera del código fuente hacia el entorno de ejecución.
 
 ---
+## Deuda Técnica #2 — Autenticación de la API REST basada en cookies en lugar de JWT
+
+> **Categoría:** Arquitectura / Seguridad
+
+### ¿Qué es?
+
+La API REST de Good Goals usa autenticación por cookie de sesión de ASP.NET Core Identity, en vez de tokens JWT (JSON Web Tokens). Esto significa que la API solo puede ser consumida desde el mismo navegador donde el usuario inició sesión — no desde una app móvil, un cliente externo o herramientas como Postman sin configuración adicional.
+
+### ¿Por qué existe?
+
+Se eligió autenticación por cookie porque ya estaba configurada con ASP.NET Core Identity para las vistas MVC, y reutilizarla para la API evitaba implementar un sistema de autenticación adicional. Dado el tiempo limitado del cuatrimestre y el desarrollo individual, esta decisión permitió tener la API funcionando rápidamente sin duplicar infraestructura. Esta deuda fue documentada explícitamente en el ADR-04 como un trade-off conocido y aceptado.
+
+### Costo de no pagarla
+
+La API no puede ser consumida por clientes externos como una app móvil u otro servidor. Escalar el sistema a una arquitectura donde el frontend y el backend estén separados se vuelve imposible sin refactorizar la autenticación. Si en el futuro se quiere exponer la API a terceros, toda la capa de seguridad tendría que reescribirse desde cero. Las pruebas automatizadas de los endpoints también se complican porque dependen de una sesión de navegador activa.
+
+### Propuesta de solución
+
+Agregar autenticación JWT como segunda opción, manteniendo las cookies para las vistas MVC para no romper lo que ya funciona. Esto implicaría instalar el paquete de autenticación JWT Bearer, configurarlo con los parámetros del token (emisor, audiencia, clave secreta desde variables de entorno), y agregar un endpoint de login exclusivo para la API que reciba correo y contraseña y devuelva un token. Los controladores de la API usarían ese esquema de autenticación en vez del genérico.
+
+**Técnica de refactorización:** *Introducción de capa de autenticación desacoplada* — separar el mecanismo de autenticación de la sesión web del mecanismo de autorización de la API.
+
+---
+
+## Uso de Ai 
+
+Yo heidi Esther Peña Betanzos no use Ai
