@@ -3,7 +3,7 @@
 | Campo | Valor |
 |---|---|
 | Autor | Heidi Esther Peña Betanzos |
-| Fecha | 25/06/2026 |
+| Fecha | 15/07/2026 |
 | Estado | Aceptado |
 
 ### Contexto 🧸
@@ -77,3 +77,32 @@ Patterns/
     ├── GoalEventManager.cs      → gestor de eventos (sujeto concreto)
     └── TaskCompletionObserver.cs → observador concreto
 ```
+# Deuda Técnica — Good Goals
+
+Documento de identificación y propuesta de solución para las deudas técnicas reales detectadas en el proyecto Good Goals durante su desarrollo.
+
+---
+
+## Deuda Técnica #1 — Cadena de conexión expuesta en `appsettings.json`
+
+> **Categoría:** Configuración / Infraestructura
+
+### ¿Qué es?
+
+La cadena de conexión a SQL Server está escrita directamente en el archivo `appsettings.json`, que forma parte del repositorio de GitHub. En un entorno de producción real, esta cadena incluiría el servidor, el usuario y la contraseña de la base de datos — datos sensibles que no deberían estar en el código fuente ni en el control de versiones.
+
+### ¿Por qué existe?
+
+Se tomó la decisión consciente de dejar la cadena de conexión en `appsettings.json` para agilizar el desarrollo y las pruebas locales durante el cuatrimestre. Configurar variables de entorno o un gestor de secretos requería tiempo adicional que se priorizó para implementar las funcionalidades del sistema.
+
+### Costo de no pagarla
+
+Si el proyecto se desplegara en producción con esta configuración, las credenciales de la base de datos quedarían expuestas en el historial de Git, accesibles para cualquier persona con acceso al repositorio. Un atacante podría conectarse directamente a la base de datos y leer, modificar o eliminar todos los datos de los usuarios. En entornos empresariales, esto representa una violación de políticas de seguridad que puede derivar en sanciones legales.
+
+### Propuesta de solución
+
+Migrar la cadena de conexión a variables de entorno usando el sistema de secretos de .NET para desarrollo local, y variables de entorno del servidor o un servicio como Azure Key Vault para producción. ASP.NET Core ya soporta esto de forma nativa — solo requiere mover el valor fuera del archivo y agregar los archivos de configuración de producción al `.gitignore`.
+
+**Técnica de refactorización:** *Externalización de configuración* — mover parámetros sensibles fuera del código fuente hacia el entorno de ejecución.
+
+---
