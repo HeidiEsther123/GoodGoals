@@ -156,6 +156,8 @@ El resultado (✅ o ❌) aparece como check en cada Pull Request, dando visibili
 | `Mian` | ADR-01 + prototipo inicial MVC  + ADR-02 + diagramas de las 4 vistas + ADR-03 + Repositories/ + Services/ |
 | `Api` | + ADR-04 + Controllers/Api/ + Swagger |
 | `gof` | + ADR-05 + Patterns/ (Factory, Decorator, Observer) |
+|`deudas-tecnicas`| ADR-06 |
 | `pruebas-unitarias` | + ADR-07 + GoodGoals.Tests/ + .github/workflows/ci.yml |
 
 ## Uso de AI
+YO Heidi Peña Betanzos use AI para cosas se me difucultaron hacer como por ejemplo: Problemas en la ejecuccion del test, problemas con One Drive, perdida de ramas, etc.
