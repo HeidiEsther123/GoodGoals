@@ -2,5 +2,32 @@
 {
     public class _
     {
+## .NET / Visual Studio
+
+# Carpetas de compilación
+bin/
+obj/
+
+# Carpeta de caché e IDE de Visual Studio
+.vs/
+
+# Archivos de usuario (configuración local, no se comparte)
+*.user
+*.suo
+
+# Archivos de publicación
+publish/
+*.pubxml
+
+# NuGet
+*.nupkg
+**/packages/*
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
     }
 }
