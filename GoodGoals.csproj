@@ -33,5 +33,11 @@
 	<ItemGroup>
 	  <Folder Include="Patterns\Observer\" />
 	</ItemGroup>
+<ItemGroup>
+    <Compile Remove="GoodGoals.Tests\**" />
+    <Content Remove="GoodGoals.Tests\**" />
+    <EmbeddedResource Remove="GoodGoals.Tests\**" />
+    <None Remove="GoodGoals.Tests\**" />
+</ItemGroup>
 
 </Project>
