@@ -1,9 +1,12 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using GoodGoals.Models;
 using GoodGoals.Repositories;
 
 namespace GoodGoals.Services
 {
-    // Capa de Lógica de Negocio: reglas propias de Metas (Goals).
     public class GoalService : IGoalService
     {
         private readonly IGenericRepository<Goal> _repository;
@@ -29,7 +32,7 @@ namespace GoodGoals.Services
 
         public async Task CreateAsync(Goal goal)
         {
-            goal.CreatedAt = DateTime.Now;
+            goal.CreatedAt = DateTime.UtcNow;
             await _repository.AddAsync(goal);
             await _repository.SaveChangesAsync();
         }
@@ -54,8 +57,6 @@ namespace GoodGoals.Services
             var existing = await GetByIdAsync(id, userId);
             if (existing == null) return false;
 
-            // Como la FK Task->Goal es Restrict, primero desvinculamos
-            // las tareas asociadas para que no quede una referencia rota.
             var allTasks = await _taskRepository.GetAllAsync();
             var relatedTasks = allTasks.Where(t => t.GoalId == id);
             foreach (var task in relatedTasks)

@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace GoodGoals.Models
@@ -13,7 +14,7 @@ namespace GoodGoals.Models
         [StringLength(2000)]
         public string? Content { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public string UserId { get; set; } = string.Empty;
         public ApplicationUser? User { get; set; }

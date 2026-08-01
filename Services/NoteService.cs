@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using GoodGoals.Models;
 using GoodGoals.Repositories;
 
@@ -26,7 +29,7 @@ namespace GoodGoals.Services
 
         public async Task CreateAsync(Note note)
         {
-            note.CreatedAt = DateTime.Now;
+            note.CreatedAt = DateTime.UtcNow;
             await _repository.AddAsync(note);
             await _repository.SaveChangesAsync();
         }
