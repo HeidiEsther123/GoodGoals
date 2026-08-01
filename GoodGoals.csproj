@@ -1,15 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
-
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
-
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.28" />
-		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.14" />
-		
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.28" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.28">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,7 +18,6 @@
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	</ItemGroup>
-
 	<ItemGroup>
 		<Content Update="Areas\Identity\Pages\Account\Login.cshtml">
 			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -30,15 +26,13 @@
 			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 		</Content>
 	</ItemGroup>
-
 	<ItemGroup>
-	  <Folder Include="Patterns\Observer\" />
+		<Folder Include="Patterns\Observer\" />
 	</ItemGroup>
-<ItemGroup>
-    <Compile Remove="GoodGoals.Tests\**" />
-    <Content Remove="GoodGoals.Tests\**" />
-    <EmbeddedResource Remove="GoodGoals.Tests\**" />
-    <None Remove="GoodGoals.Tests\**" />
-</ItemGroup>
-
+	<ItemGroup>
+		<Compile Remove="GoodGoals.Tests\**" />
+		<Content Remove="GoodGoals.Tests\**" />
+		<EmbeddedResource Remove="GoodGoals.Tests\**" />
+		<None Remove="GoodGoals.Tests\**" />
+	</ItemGroup>
 </Project>
