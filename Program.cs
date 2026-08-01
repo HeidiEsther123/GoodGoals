@@ -10,14 +10,12 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ---- Base de datos (Capa de Datos) ----
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
     ?? throw new InvalidOperationException("No se encontró la cadena de conexión 'DefaultConnection'.");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseNpgsql(connectionString));
 
-// ---- Identity (Autenticación) ----
 builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
@@ -26,15 +24,12 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 })
     .AddEntityFrameworkStores<AppDbContext>();
 
-// ---- Repositorios (Capa de Acceso a Datos) ----
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
-// ---- Servicios base (Capa de Lógica de Negocio) ----
 builder.Services.AddScoped<ITaskService, TaskService>();
 builder.Services.AddScoped<INoteService, NoteService>();
 builder.Services.AddScoped<IReminderService, ReminderService>();
 
-// ---- Patrón Decorator: GoalService envuelto con logging automático ----
 builder.Services.AddScoped<GoalService>();
 builder.Services.AddScoped<IGoalService>(provider =>
 {
@@ -43,18 +38,13 @@ builder.Services.AddScoped<IGoalService>(provider =>
     return new LoggingGoalService(inner, logger);
 });
 
-// ---- Patrón Factory: fábrica de recordatorios ----
 builder.Services.AddScoped<IReminderFactory, ReminderFactory>();
-
-// ---- Patrón Observer: gestor de eventos de metas ----
 builder.Services.AddScoped<IGoalSubject, GoalEventManager>();
 builder.Services.AddScoped<TaskCompletionObserver>();
 
-// ---- MVC + Razor Pages (Identity UI) + API ----
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-// ---- Swagger (documentación de la API) ----
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -62,11 +52,18 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "Good Goals API",
         Version = "v1",
-        Description = "API REST para el sistema Good Goals (Metas, Tareas, Notas, Recordatorios)."
+        Description = "API REST para el sistema Good Goals."
     });
 });
 
 var app = builder.Build();
+
+// ---- Aplicar migraciones automáticamente al iniciar ----
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+}
 
 if (app.Environment.IsDevelopment())
 {
@@ -91,3 +88,4 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+//djdjjdjG

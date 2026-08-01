@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="GoodGoals.csproj" />
+  <Project Path="GoodGoals.Tests/GoodGoals.Tests.csproj" />
 </Solution>

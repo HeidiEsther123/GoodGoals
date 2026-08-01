@@ -13,11 +13,12 @@ namespace GoodGoals.Patterns.Factory
             {
                 Title = title,
                 UserId = userId,
-                CreatedAt = DateTime.Now,
+                CreatedAt = DateTime.UtcNow, // PostgreSQL exige UTC, no hora local
                 IsSent = false
             };
 
             // Según el tipo, la fábrica configura la fecha del recordatorio
+            // (RemindAt ya se convierte a UTC automáticamente por el setter en Reminder.cs)
             reminder.RemindAt = type switch
             {
                 ReminderType.OneTime => DateTime.Now.AddHours(1),

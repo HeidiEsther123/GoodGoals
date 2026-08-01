@@ -26,7 +26,7 @@ namespace GoodGoals.Services
 
         public async Task CreateAsync(Note note)
         {
-            note.CreatedAt = DateTime.Now;
+            note.CreatedAt = DateTime.UtcNow;
             await _repository.AddAsync(note);
             await _repository.SaveChangesAsync();
         }
@@ -38,6 +38,7 @@ namespace GoodGoals.Services
 
             existing.Title = note.Title;
             existing.Content = note.Content;
+            existing.GoalId = note.GoalId;
 
             _repository.Update(existing);
             await _repository.SaveChangesAsync();

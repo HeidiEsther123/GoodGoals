@@ -26,7 +26,9 @@ namespace GoodGoals.Services
 
         public async Task CreateAsync(Reminder reminder)
         {
-            reminder.CreatedAt = DateTime.Now;
+            // Siempre forzamos UTC sin condiciones — PostgreSQL rechaza
+            // cualquier DateTime con Kind=Local, sin importar de dónde venga.
+            reminder.CreatedAt = DateTime.UtcNow;
             await _repository.AddAsync(reminder);
             await _repository.SaveChangesAsync();
         }

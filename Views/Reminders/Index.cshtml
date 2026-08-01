@@ -1,23 +1,39 @@
 @model IEnumerable<Reminder>
-@{ ViewData["Title"] = "Mis Recordatorios"; }
+@{
+    ViewData["Title"] = "Mis Recordatorios";
+}
 
 <h2>⏰ Mis Recordatorios</h2>
 <a class="btn btn-success mb-3" asp-action="Create">+ Nuevo Recordatorio</a>
 
-<table class="table table-striped">
-    <thead><tr><th>Título</th><th>Fecha/Hora</th><th>Estado</th><th></th></tr></thead>
-    <tbody>
+<div class="row">
     @foreach (var r in Model)
     {
-        <tr>
-            <td>@r.Title</td>
-            <td>@r.RemindAt.ToString("g")</td>
-            <td>@(r.IsSent ? "Enviado" : "Pendiente")</td>
-            <td>
-                <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@r.Id">Editar</a>
-                <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@r.Id">Eliminar</a>
-            </td>
-        </tr>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@r.Title</h5>
+                    <p class="card-text">@r.RemindAt.ToLocalTime().ToString("g")</p>
+                    <p>
+                        @if (r.IsSent)
+                        {
+                            <span class="badge-completada">✅ Enviado</span>
+                        }
+                        else
+                        {
+                            <span class="badge-pendiente">⏳ Pendiente</span>
+                        }
+                    </p>
+                    <div class="d-flex gap-2 flex-wrap">
+                        <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@r.Id">Editar</a>
+                        <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@r.Id">Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     }
-    </tbody>
-</table>
+</div>
+@if (!Model.Any())
+{
+    <p class="text-muted">Aún no tienes recordatorios. ¡Crea el primero!</p>
+}

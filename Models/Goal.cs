@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace GoodGoals.Models
@@ -13,15 +15,21 @@ namespace GoodGoals.Models
         [StringLength(500)]
         public string? Description { get; set; }
 
-        public DateTime? TargetDate { get; set; }
+        private DateTime? _targetDate;
+        public DateTime? TargetDate
+        {
+            get => _targetDate;
+            set => _targetDate = value?.ToUniversalTime();
+        }
 
         public bool IsCompleted { get; set; } = false;
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public string UserId { get; set; } = string.Empty;
         public ApplicationUser? User { get; set; }
 
         public ICollection<TaskItem> Tasks { get; set; } = new List<TaskItem>();
+        public ICollection<Note> Notes { get; set; } = new List<Note>();
     }
 }

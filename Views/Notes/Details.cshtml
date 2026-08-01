@@ -1,8 +1,14 @@
 @model Note
-@{ ViewData["Title"] = "Detalle de Nota"; }
+@{
+    ViewData["Title"] = "Detalle de Nota";
+}
 
 <h2>@Model.Title</h2>
 <p>@Model.Content</p>
-<p class="text-muted">@Model.CreatedAt.ToString("g")</p>
+@if (Model.Goal != null)
+{
+    <p><strong>Meta asociada:</strong> @Model.Goal.Title</p>
+}
+<p class="text-muted">@Model.CreatedAt.ToLocalTime().ToString("g")</p>
 <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Editar</a>
 <a asp-action="Index" class="btn btn-outline-secondary">Volver</a>
