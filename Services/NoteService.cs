@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using GoodGoals.Models;
 using GoodGoals.Repositories;
 
@@ -41,6 +38,7 @@ namespace GoodGoals.Services
 
             existing.Title = note.Title;
             existing.Content = note.Content;
+            existing.GoalId = note.GoalId;
 
             _repository.Update(existing);
             await _repository.SaveChangesAsync();

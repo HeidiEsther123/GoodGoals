@@ -18,5 +18,9 @@ namespace GoodGoals.Models
 
         public string UserId { get; set; } = string.Empty;
         public ApplicationUser? User { get; set; }
+
+        // Una nota opcionalmente pertenece a una meta
+        public int? GoalId { get; set; }
+        public Goal? Goal { get; set; }
     }
 }

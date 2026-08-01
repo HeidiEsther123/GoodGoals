@@ -30,5 +30,6 @@ namespace GoodGoals.Models
         public ApplicationUser? User { get; set; }
 
         public ICollection<TaskItem> Tasks { get; set; } = new List<TaskItem>();
+        public ICollection<Note> Notes { get; set; } = new List<Note>();
     }
 }
