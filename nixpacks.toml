@@ -1,4 +1,4 @@
-{
+
   [ "phases.setup" ],
   "nixPkgs" "=",
   [ "dotnet-sdk_8" ]
