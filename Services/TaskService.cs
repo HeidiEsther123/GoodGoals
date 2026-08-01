@@ -26,7 +26,7 @@ namespace GoodGoals.Services
 
         public async Task CreateAsync(TaskItem task)
         {
-            task.CreatedAt = DateTime.Now;
+            task.CreatedAt = DateTime.UtcNow;
             await _repository.AddAsync(task);
             await _repository.SaveChangesAsync();
         }

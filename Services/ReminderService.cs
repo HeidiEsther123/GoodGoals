@@ -26,7 +26,13 @@ namespace GoodGoals.Services
 
         public async Task CreateAsync(Reminder reminder)
         {
-            reminder.CreatedAt = DateTime.Now;
+            // OJO: ya no pisamos CreatedAt con DateTime.Now (hora local).
+            // El modelo Reminder ya trae CreatedAt = DateTime.UtcNow por defecto.
+            // Si viniera sin setear, lo forzamos aquí también en UTC.
+            if (reminder.CreatedAt == default)
+            {
+                reminder.CreatedAt = DateTime.UtcNow;
+            }
             await _repository.AddAsync(reminder);
             await _repository.SaveChangesAsync();
         }
