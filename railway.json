@@ -1,9 +1,0 @@
-{
-  "build": {
-    "builder": "NIXPACKS",
-    "buildCommand": "dotnet publish -c Release -o /app/out"
-  },
-  "deploy": {
-    "startCommand": "dotnet /app/out/GoodGoals.dll"
-  }
-}
