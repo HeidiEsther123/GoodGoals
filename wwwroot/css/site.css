@@ -14,6 +14,10 @@ body {
     color: #fff;
     min-height: 100vh;
     line-height: 1.6;
+    /* --- MIS CAMBIOS: Convertir el cuerpo en un contenedor flex --- */
+    display: flex;
+    flex-direction: column; /* Diseño en columna para navbar, contenido, footer */
+    /* ----------------------------------------------------------------- */
 }
 
 i.bubble {
@@ -25,163 +29,9 @@ i.bubble {
     opacity: 0.4; /* más tenues para no distraer */
 }
 
-    i.bubble:nth-child(1) {
-        top: 20px;
-        left: 30px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(2,226,252,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 8s;
-    }
+/* ... (resto de tus reglas i.bubble:nth-child...) ... */
 
-    i.bubble:nth-child(2) {
-        top: 420px;
-        left: 30px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(250,160,2,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 25s;
-    }
-
-    i.bubble:nth-child(3) {
-        top: 550px;
-        left: 880px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(20,252,2,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 8s;
-    }
-
-    i.bubble:nth-child(4) {
-        top: 5px;
-        left: 1030px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(252,2,196,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 6s;
-    }
-
-    i.bubble:nth-child(5) {
-        top: 280px;
-        left: 12px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(139,44,148,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 8s;
-    }
-
-    i.bubble:nth-child(6) {
-        top: 550px;
-        left: 30px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(251,184,41,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 9s;
-    }
-
-    i.bubble:nth-child(7) {
-        top: 650px;
-        left: 50px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(195,255,104,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 20s;
-    }
-
-    i.bubble:nth-child(8) {
-        top: 20px;
-        left: 860px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(255,0,102,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 8s;
-    }
-
-    i.bubble:nth-child(9) {
-        top: 896px;
-        left: 132px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(255,255,0,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 18s;
-    }
-
-    i.bubble:nth-child(10) {
-        top: 578px;
-        left: 357px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(127,175,27,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 6s;
-    }
-
-    i.bubble:nth-child(11) {
-        top: 380px;
-        left: 230px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(1,210,255,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 8s;
-    }
-
-    i.bubble:nth-child(12) {
-        top: 570px;
-        left: 1100px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(237,247,255,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 9s;
-    }
-
-    i.bubble:nth-child(13) {
-        top: 600px;
-        left: 600px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(0,255,255,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 10s;
-    }
-
-    i.bubble:nth-child(14) {
-        top: 200px;
-        left: 520px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(0,0,255,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 20s;
-    }
-
-    i.bubble:nth-child(15) {
-        top: 370px;
-        left: 500px;
-        width: 80px;
-        height: 80px;
-        background: radial-gradient(ellipse at center, rgba(16,225,228,0.4) 0%,rgba(0,0,0,0) 100%);
-        animation-duration: 13s;
-    }
-
-@keyframes screen {
-    from {
-        opacity: 0;
-    }
-
-    25% {
-        opacity: 0.2;
-        transform: scale3d(2,2,2);
-    }
-
-    50% {
-        opacity: 0.4;
-    }
-
-    75% {
-        opacity: 0.5;
-    }
-
-    to {
-        opacity: 0;
-    }
-}
+/* ... (tu regla @keyframes screen) ... */
 
 /* ---- Navbar: limpio y con indicador de página activa ---- */
 .navbar {
@@ -193,26 +43,7 @@ i.bubble {
     padding: 0.75rem 0;
 }
 
-.navbar-brand {
-    font-size: 1.5rem !important;
-    font-weight: 800 !important;
-    color: #AEFF80 !important;
-    letter-spacing: 1px;
-}
-
-.nav-link {
-    color: rgba(255,255,255,0.7) !important;
-    transition: all 0.2s;
-    padding: 0.5rem 1rem !important;
-    border-radius: 6px;
-    margin: 0 2px;
-    font-size: 0.95rem;
-}
-
-    .nav-link:hover, .nav-link.active {
-        color: #AEFF80 !important;
-        background: rgba(174,255,128,0.1) !important;
-    }
+/* ... (resto de tus reglas .navbar-brand y .nav-link) ... */
 
 /* ---- Contenedor principal con más espacio ---- */
 .container main {
@@ -221,6 +52,12 @@ i.bubble {
     padding-top: 2rem;
     max-width: 960px;
 }
+
+/* --- MIS CAMBIOS: Empuja el footer hacia abajo --- */
+.content-stretch {
+    flex-grow: 1; /* Hace que este contenedor crezca y empuje el footer */
+}
+/* --------------------------------------------------- */
 
 /* ---- Títulos: tamaño grande, claro y con jerarquía ---- */
 h1 {
@@ -231,40 +68,7 @@ h1 {
     letter-spacing: 0.5px;
 }
 
-h2 {
-    color: #AEFF80;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-
-h3, h4, h5 {
-    color: #AEFF80;
-}
-
-p, li {
-    color: #d0d0d0;
-    line-height: 1.7;
-}
-
-label {
-    color: #AEFF80 !important;
-    font-weight: 500;
-}
-
-td, th {
-    color: #d0d0d0;
-}
-
-a {
-    color: #AEFF80;
-    text-decoration: none;
-}
-
-    a:hover {
-        color: #fff;
-        text-decoration: underline;
-    }
+/* ... (resto de tus reglas h2...a:hover) ... */
 
 /* ---- Cards: fondo claro, borde de color, más padding ---- */
 .card {
@@ -278,26 +82,7 @@ a {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-    .card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 20px rgba(174,255,128,0.15) !important;
-    }
-
-.card-body {
-    padding: 1.25rem 1.5rem;
-}
-
-.card-title {
-    color: #AEFF80 !important;
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.card-text {
-    color: #c0c0c0 !important;
-    font-size: 0.95rem;
-}
+/* ... (resto de tus reglas .card:hover... .card-text) ... */
 
 /* ---- Badges de estado: colores con significado claro ---- */
 .badge-completada {
@@ -310,15 +95,7 @@ a {
     font-weight: 600;
 }
 
-.badge-pendiente {
-    background: rgba(255,184,0,0.2);
-    color: #FFB800;
-    border: 1px solid #FFB800;
-    border-radius: 20px;
-    padding: 3px 10px;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
+/* ... (resto de tus reglas .badge-pendiente) ... */
 
 /* ---- Tablas: filas con más altura para leer mejor ---- */
 .table {
@@ -330,6 +107,9 @@ a {
     .table thead th {
         color: #AEFF80 !important;
         border-bottom: 2px solid rgba(174,255,128,0.3);
+        /* --- MIS CAMBIOS: Fondo negro-azul para que no sea blanco --- */
+        background-color: #0a0a0f !important; /* Fondo negro-azul para la cabecera */
+        /* ------------------------------------------------------------- */
         font-size: 0.85rem;
         text-transform: uppercase;
         letter-spacing: 0.5px;
@@ -354,39 +134,7 @@ a {
     margin-bottom: 1.25rem;
 }
 
-.form-label {
-    color: #AEFF80 !important;
-    font-weight: 600;
-    font-size: 0.95rem;
-    margin-bottom: 0.4rem;
-    display: block;
-}
-
-.form-control, .form-select {
-    background: rgba(255,255,255,0.06) !important;
-    border: 2px solid rgba(174,255,128,0.25) !important;
-    color: #fff !important;
-    border-radius: 8px !important;
-    padding: 0.65rem 1rem !important;
-    font-size: 1rem !important;
-    transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-    .form-control:focus, .form-select:focus {
-        background: rgba(255,255,255,0.1) !important;
-        border-color: #AEFF80 !important;
-        box-shadow: 0 0 0 3px rgba(174,255,128,0.2) !important;
-        color: #fff !important;
-        outline: none;
-    }
-
-    .form-control::placeholder {
-        color: rgba(255,255,255,0.35);
-    }
-
-.form-floating label {
-    color: rgba(174,255,128,0.6) !important;
-}
+/* ... (resto de tus reglas .form-label.... form-floating label) ... */
 
 /* ---- Botones: grandes, claros, con mucho contraste ---- */
 .btn {
@@ -398,69 +146,7 @@ a {
     letter-spacing: 0.3px;
 }
 
-.btn-primary, .btn-success {
-    background: #AEFF80 !important;
-    color: #0a0a0f !important;
-    border: 2px solid #AEFF80 !important;
-}
-
-    .btn-primary:hover, .btn-success:hover {
-        background: transparent !important;
-        color: #AEFF80 !important;
-        box-shadow: 0 0 16px rgba(174,255,128,0.4) !important;
-    }
-
-.btn-outline-primary {
-    color: #AEFF80 !important;
-    border: 2px solid #AEFF80 !important;
-}
-
-    .btn-outline-primary:hover {
-        background: #AEFF80 !important;
-        color: #0a0a0f !important;
-    }
-
-.btn-outline-success {
-    color: #AEFF80 !important;
-    border: 2px solid #AEFF80 !important;
-}
-
-    .btn-outline-success:hover {
-        background: #AEFF80 !important;
-        color: #0a0a0f !important;
-    }
-
-.btn-outline-danger {
-    color: #ff6b6b !important;
-    border: 2px solid #ff6b6b !important;
-}
-
-    .btn-outline-danger:hover {
-        background: #ff6b6b !important;
-        color: #fff !important;
-    }
-
-.btn-outline-secondary {
-    color: #aaa !important;
-    border: 2px solid #aaa !important;
-}
-
-    .btn-outline-secondary:hover {
-        background: #aaa !important;
-        color: #000 !important;
-    }
-
-.btn-danger {
-    background: #ff6b6b !important;
-    border: 2px solid #ff6b6b !important;
-    color: #fff !important;
-}
-
-.btn-secondary {
-    background: rgba(255,255,255,0.08) !important;
-    border: 2px solid rgba(255,255,255,0.2) !important;
-    color: #ddd !important;
-}
+/* ... (resto de tus reglas .btn-primary... .btn-secondary) ... */
 
 /* ---- Alertas ---- */
 .alert-warning {

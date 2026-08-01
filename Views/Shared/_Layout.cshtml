@@ -38,7 +38,7 @@
                         <li class="nav-item"><a class="nav-link" asp-controller="Goals" asp-action="Index">Metas</a></li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Tasks" asp-action="Index">Tareas</a></li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Notes" asp-action="Index">Notas</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="Reminders" asp-action="Index">Recordatorios</a>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Reminders" asp-action="Index">Recordatorios</a></li>
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -46,10 +46,13 @@
         </nav>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <!-- NUEVO CONTENEDOR FLEX: Empuja el footer hacia abajo -->
+    <div class="content-stretch">
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
 
     <footer class="border-top footer text-center py-3 mt-4">
