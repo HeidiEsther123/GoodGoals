@@ -1,27 +1,54 @@
 @model IEnumerable<TaskItem>
-@{ ViewData["Title"] = "Mis Tareas"; }
+@{
+    ViewData["Title"] = "Mis Tareas";
+}
 
 <h2>📝 Mis Tareas</h2>
 <a class="btn btn-success mb-3" asp-action="Create">+ Nueva Tarea</a>
 
-<table class="table table-striped">
-    <thead><tr><th>Título</th><th>Vence</th><th>Meta</th><th>Estado</th><th></th></tr></thead>
-    <tbody>
+<div class="row">
     @foreach (var task in Model)
     {
-        <tr>
-            <td>@task.Title</td>
-            <td>@(task.DueDate?.ToShortDateString() ?? "-")</td>
-            <td>@(task.Goal?.Title ?? "-")</td>
-            <td>@(task.IsCompleted ? "✅ Completada" : "⏳ Pendiente")</td>
-            <td class="d-flex gap-1">
-                <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@task.Id">Editar</a>
-                <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@task.Id">Eliminar</a>
-                <form asp-action="ToggleCompleted" asp-route-id="@task.Id" method="post">
-                    <button type="submit" class="btn btn-sm btn-outline-success">@(task.IsCompleted ? "Reabrir" : "Completar")</button>
-                </form>
-            </td>
-        </tr>
+        <div class="col-md-4">
+            <div class="card @(task.IsCompleted ? "border-success" : "")">
+                <div class="card-body">
+                    <h5 class="card-title">@task.Title @(task.IsCompleted ? "✅" : "")</h5>
+                    <p class="card-text">
+                        @if (task.DueDate != null)
+                        {
+                            <span>Vence: @task.DueDate.Value.ToShortDateString()</span>
+                        }
+                        @if (task.Goal != null)
+                        {
+                            <br />
+                            <span class="text-muted small">Meta: @task.Goal.Title</span>
+                        }
+                    </p>
+                    <p>
+                        @if (task.IsCompleted)
+                        {
+                            <span class="badge-completada">✅ Completada</span>
+                        }
+                        else
+                        {
+                            <span class="badge-pendiente">⏳ Pendiente</span>
+                        }
+                    </p>
+                    <div class="d-flex gap-2 flex-wrap">
+                        <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@task.Id">Editar</a>
+                        <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@task.Id">Eliminar</a>
+                        <form asp-action="ToggleCompleted" asp-route-id="@task.Id" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-sm btn-outline-success">
+                                @(task.IsCompleted ? "Reabrir" : "Completar")
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     }
-    </tbody>
-</table>
+</div>
+@if (!Model.Any())
+{
+    <p class="text-muted">Aún no tienes tareas. ¡Crea la primera!</p>
+}
